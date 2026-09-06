@@ -1,0 +1,7 @@
+id: 3dgs
+name: 3D Gaussian Splatting
+parent: neural-graphics
+keywords:
+- gaussian splatting
+- 3dgs
+- splat

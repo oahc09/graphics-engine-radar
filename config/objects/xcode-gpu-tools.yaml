@@ -1,0 +1,9 @@
+id: xcode-gpu-tools
+name: Xcode GPU Tools
+type: tool
+domain: tooling
+description: Apple's Metal debugger and GPU profiler.
+official_url: null
+github_repo: null
+aliases: []
+sources: []

@@ -1,0 +1,12 @@
+id: rgp
+name: Radeon GPU Profiler
+type: tool
+domain: tooling
+description: AMD's low-level GPU profiler.
+official_url: https://gpuopen.com/rgp/
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://gpuopen.com/feed/
+  poll_interval: 120

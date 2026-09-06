@@ -1,0 +1,13 @@
+id: rendering-architecture
+name: Rendering Architecture
+parent: null
+keywords:
+- rhi
+- render graph
+- frame graph
+- render pipeline
+- backend
+- descriptor
+- bindless
+- multithreaded rendering
+- async compute

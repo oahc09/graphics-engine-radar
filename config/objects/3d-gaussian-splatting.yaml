@@ -1,0 +1,11 @@
+id: 3d-gaussian-splatting
+name: 3D Gaussian Splatting
+type: technology
+domain: rendering_tech
+description: 3DGS radiance field rendering and its engineering ecosystem.
+official_url: null
+github_repo: null
+aliases:
+- 3DGS
+- Gaussian Splatting
+sources: []

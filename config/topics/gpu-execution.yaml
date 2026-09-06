@@ -1,0 +1,10 @@
+id: gpu-execution
+name: GPU Execution
+parent: null
+keywords:
+- gpu
+- work graph
+- compute
+- barrier
+- scheduling
+- command buffer

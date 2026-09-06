@@ -1,0 +1,12 @@
+id: basis-universal
+name: Basis Universal
+type: standard
+domain: standard
+description: GPU texture codec (transcodable compressed textures).
+official_url: null
+github_repo: BinomialLLC/basis_universal
+aliases: []
+sources:
+- type: github_release
+  repo: BinomialLLC/basis_universal
+  poll_interval: 60

@@ -1,0 +1,6 @@
+id: frame-generation
+name: Frame Generation
+parent: image-reconstruction
+keywords:
+- frame generation
+- frame interpolation

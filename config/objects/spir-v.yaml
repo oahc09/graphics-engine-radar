@@ -1,0 +1,12 @@
+id: spir-v
+name: SPIR-V
+type: technology
+domain: graphics_api
+description: Khronos intermediate representation for shaders/compute kernels.
+official_url: https://www.khronos.org/spir/
+github_repo: KhronosGroup/SPIRV-Registry
+aliases: []
+sources:
+- type: github_release
+  repo: KhronosGroup/SPIRV-Registry
+  poll_interval: 360

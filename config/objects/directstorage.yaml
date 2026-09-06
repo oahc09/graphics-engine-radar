@@ -1,0 +1,12 @@
+id: directstorage
+name: DirectStorage
+type: technology
+domain: gpu_platform
+description: Windows GPU-accelerated asset streaming API.
+official_url: null
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://devblogs.microsoft.com/directx/feed/
+  poll_interval: 120

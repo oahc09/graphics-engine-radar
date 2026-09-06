@@ -1,0 +1,11 @@
+id: resource-asset
+name: Resource & Asset
+parent: null
+keywords:
+- texture
+- asset
+- streaming
+- gltf
+- usd
+- compression
+- format

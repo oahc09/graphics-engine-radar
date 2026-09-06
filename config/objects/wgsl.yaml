@@ -1,0 +1,17 @@
+id: wgsl
+name: WGSL
+type: technology
+domain: graphics_api
+description: WebGPU Shading Language.
+official_url: https://www.w3.org/TR/WGSL/
+github_repo: null
+aliases: []
+sources:
+- type: github_pr
+  repo: gpuweb/gpuweb
+  poll_interval: 240
+  watch:
+    pull_requests:
+      merged_only: true
+      keywords:
+      - wgsl

@@ -1,0 +1,12 @@
+id: agi
+name: Android GPU Inspector
+type: tool
+domain: tooling
+description: Google's Android GPU profiling tool.
+official_url: https://gpuinspector.dev
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://android-developers.googleblog.com/feeds/posts/default?alt=rss
+  poll_interval: 120

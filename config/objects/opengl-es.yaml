@@ -1,0 +1,12 @@
+id: opengl-es
+name: OpenGL ES
+type: graphics_api
+domain: graphics_api
+description: Khronos embedded/mobile graphics API.
+official_url: https://www.khronos.org/opengles/
+github_repo: null
+aliases: []
+sources:
+- type: spec_registry
+  url: https://registry.khronos.org/OpenGL/
+  poll_interval: 360

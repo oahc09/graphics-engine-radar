@@ -1,0 +1,13 @@
+id: lighting-shading
+name: Lighting & Shading
+parent: null
+keywords:
+- pbr
+- lighting
+- global illumination
+- gi
+- path tracing
+- ray tracing
+- restir
+- shadow
+- material

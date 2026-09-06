@@ -1,0 +1,12 @@
+id: flax-engine
+name: Flax Engine
+type: game_engine
+domain: engine
+description: Multi-platform 3D game engine with C# scripting.
+official_url: https://flaxengine.com
+github_repo: FlaxEngine/FlaxEngine
+aliases: []
+sources:
+- type: github_release
+  repo: FlaxEngine/FlaxEngine
+  poll_interval: 60

@@ -1,0 +1,12 @@
+id: gfxreconstruct
+name: gfxreconstruct
+type: tool
+domain: tooling
+description: Graphics API capture/replay for Vulkan/D3D12.
+official_url: null
+github_repo: LunarG/gfxreconstruct
+aliases: []
+sources:
+- type: github_release
+  repo: LunarG/gfxreconstruct
+  poll_interval: 60

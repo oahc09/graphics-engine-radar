@@ -1,0 +1,15 @@
+id: bevy
+name: Bevy
+type: game_engine
+domain: engine
+description: Rust data-driven game engine built on an ECS.
+official_url: https://bevy.org
+github_repo: bevyengine/bevy
+aliases: []
+sources:
+- type: github_release
+  repo: bevyengine/bevy
+  poll_interval: 60
+- type: official_blog
+  url: https://bevy.org/atom.xml
+  poll_interval: 120

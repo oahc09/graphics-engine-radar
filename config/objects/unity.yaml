@@ -1,0 +1,16 @@
+id: unity
+name: Unity
+type: game_engine
+domain: engine
+description: Unity real-time development platform.
+official_url: https://unity.com
+github_repo: null
+aliases:
+- Unity3D
+sources:
+- type: release_notes
+  url: https://unity.com/releases/editor/whats-new
+  poll_interval: 360
+- type: official_blog
+  url: https://blog.unity.com/feed
+  poll_interval: 120

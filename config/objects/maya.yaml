@@ -1,0 +1,9 @@
+id: maya
+name: Maya
+type: dcc
+domain: content_pipeline
+description: Autodesk 3D animation software.
+official_url: https://www.autodesk.com/products/maya
+github_repo: null
+aliases: []
+sources: []

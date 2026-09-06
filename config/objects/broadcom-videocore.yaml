@@ -1,0 +1,9 @@
+id: broadcom-videocore
+name: Broadcom / VideoCore
+type: gpu_vendor
+domain: gpu_platform
+description: Raspberry Pi VideoCore GPUs.
+official_url: null
+github_repo: null
+aliases: []
+sources: []

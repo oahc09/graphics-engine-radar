@@ -1,0 +1,9 @@
+id: ios
+name: iOS
+type: platform
+domain: gpu_platform
+description: Apple mobile platform.
+official_url: null
+github_repo: null
+aliases: []
+sources: []

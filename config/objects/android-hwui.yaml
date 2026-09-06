@@ -1,0 +1,12 @@
+id: android-hwui
+name: Android HWUI
+type: graphics_runtime
+domain: engine
+description: Android's 2D UI rendering pipeline over OpenGL/Vulkan.
+official_url: null
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://android-developers.googleblog.com/feeds/posts/default?alt=rss
+  poll_interval: 120

@@ -1,0 +1,12 @@
+id: realitykit
+name: RealityKit
+type: graphics_runtime
+domain: engine
+description: Apple's AR/3D rendering framework.
+official_url: https://developer.apple.com/documentation/realitykit
+github_repo: null
+aliases: []
+sources:
+- type: release_notes
+  url: https://developer.apple.com/news/releases/
+  poll_interval: 360

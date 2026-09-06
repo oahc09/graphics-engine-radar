@@ -1,0 +1,13 @@
+id: sdl-gpu
+name: SDL GPU
+type: rendering_engine
+domain: engine
+description: SDL3's modern GPU abstraction API over D3D12/Vulkan/Metal.
+official_url: https://wiki.libsdl.org/SDL3/CategoryGPU
+github_repo: libsdl-org/SDL
+aliases:
+- SDL3 GPU
+sources:
+- type: github_release
+  repo: libsdl-org/SDL
+  poll_interval: 60

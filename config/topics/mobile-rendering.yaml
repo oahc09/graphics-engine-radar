@@ -1,0 +1,10 @@
+id: mobile-rendering
+name: Mobile Rendering
+parent: platform-runtime
+keywords:
+- mobile
+- adreno
+- mali
+- immortalis
+- phone
+- android

@@ -1,0 +1,9 @@
+id: scenekit
+name: SceneKit
+type: graphics_runtime
+domain: engine
+description: Apple's 3D scene framework.
+official_url: https://developer.apple.com/documentation/scenekit
+github_repo: null
+aliases: []
+sources: []

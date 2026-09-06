@@ -1,0 +1,12 @@
+id: nvrhi
+name: NVRHI
+type: rendering_engine
+domain: engine
+description: NVIDIA's abstraction layer over D3D12/Vulkan/Metal.
+official_url: null
+github_repo: NVIDIA-RTX/NVRHI
+aliases: []
+sources:
+- type: github_release
+  repo: NVIDIA-RTX/NVRHI
+  poll_interval: 60

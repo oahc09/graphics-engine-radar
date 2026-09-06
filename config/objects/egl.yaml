@@ -1,0 +1,12 @@
+id: egl
+name: EGL
+type: graphics_api
+domain: graphics_api
+description: Khronos interface between rendering APIs and windowing systems.
+official_url: https://www.khronos.org/egl
+github_repo: KhronosGroup/EGL-Registry
+aliases: []
+sources:
+- type: spec_registry
+  url: https://registry.khronos.org/EGL/
+  poll_interval: 360

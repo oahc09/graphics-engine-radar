@@ -1,0 +1,12 @@
+id: xess
+name: XeSS
+type: technology
+domain: rendering_tech
+description: Intel Xe Super Sampling.
+official_url: null
+github_repo: null
+aliases: []
+sources:
+- type: community
+  url: https://www.phoronix.com/rss.php
+  poll_interval: 120

@@ -1,0 +1,12 @@
+id: neural-graphics
+name: Neural Graphics
+parent: null
+keywords:
+- neural
+- machine learning
+- nerf
+- gaussian splatting
+- 3dgs
+- radiance field
+- neural texture
+- neural shading

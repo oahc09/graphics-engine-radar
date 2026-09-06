@@ -1,0 +1,12 @@
+id: dlss
+name: DLSS
+type: technology
+domain: rendering_tech
+description: NVIDIA's deep-learning super sampling and frame generation.
+official_url: null
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://developer.nvidia.com/blog/feed/
+  poll_interval: 120

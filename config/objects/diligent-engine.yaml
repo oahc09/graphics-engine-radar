@@ -1,0 +1,12 @@
+id: diligent-engine
+name: Diligent Engine
+type: rendering_engine
+domain: engine
+description: Modern cross-platform rendering engine on top of its own RHI.
+official_url: https://diligentgraphics.com
+github_repo: DiligentGraphics/DiligentCore
+aliases: []
+sources:
+- type: github_release
+  repo: DiligentGraphics/DiligentCore
+  poll_interval: 60

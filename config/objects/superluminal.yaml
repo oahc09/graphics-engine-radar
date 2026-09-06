@@ -1,0 +1,9 @@
+id: superluminal
+name: Superluminal
+type: tool
+domain: tooling
+description: Performance profiler for C++ by Molecular Matters.
+official_url: https://www.superluminal.eu
+github_repo: null
+aliases: []
+sources: []

@@ -1,0 +1,12 @@
+id: android
+name: Android
+type: platform
+domain: gpu_platform
+description: Android platform graphics stack.
+official_url: https://developer.android.com
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://android-developers.googleblog.com/feeds/posts/default?alt=rss
+  poll_interval: 120

@@ -1,0 +1,12 @@
+id: pix
+name: PIX
+type: tool
+domain: tooling
+description: Microsoft's Xbox/Windows graphics debugger and profiler.
+official_url: null
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://devblogs.microsoft.com/directx/feed/
+  poll_interval: 120

@@ -1,0 +1,12 @@
+id: draco
+name: Draco
+type: standard
+domain: standard
+description: Google's mesh/point-cloud compression library.
+official_url: null
+github_repo: google/draco
+aliases: []
+sources:
+- type: github_release
+  repo: google/draco
+  poll_interval: 60

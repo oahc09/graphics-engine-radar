@@ -1,0 +1,13 @@
+id: cesiumjs
+name: CesiumJS
+type: web_engine
+domain: engine
+description: 3D geospatial engine for the web.
+official_url: https://cesium.com/platform/cesiumjs
+github_repo: CesiumGS/cesium
+aliases:
+- Cesium
+sources:
+- type: github_release
+  repo: CesiumGS/cesium
+  poll_interval: 60

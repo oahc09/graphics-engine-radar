@@ -1,0 +1,12 @@
+id: web-platform
+name: Web
+type: platform
+domain: gpu_platform
+description: The web as a graphics platform.
+official_url: null
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://blog.chromium.org/feeds/posts/default?alt=rss
+  poll_interval: 120

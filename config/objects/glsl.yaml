@@ -1,0 +1,12 @@
+id: glsl
+name: GLSL
+type: technology
+domain: graphics_api
+description: OpenGL Shading Language.
+official_url: https://www.khronos.org/opengl/wiki/OpenGL_Shading_Language
+github_repo: null
+aliases: []
+sources:
+- type: spec_registry
+  url: https://registry.khronos.org/OpenGL/
+  poll_interval: 360

@@ -1,0 +1,12 @@
+id: shader-language
+name: Shader Language
+parent: null
+keywords:
+- slang
+- hlsl
+- glsl
+- wgsl
+- msl
+- shader compiler
+- spir-v
+- dxil

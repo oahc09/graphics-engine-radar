@@ -1,0 +1,9 @@
+id: mesh-shading
+name: Mesh Shading
+type: technology
+domain: rendering_tech
+description: Mesh/task shader pipelines.
+official_url: null
+github_repo: null
+aliases: []
+sources: []

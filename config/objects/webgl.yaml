@@ -1,0 +1,12 @@
+id: webgl
+name: WebGL
+type: graphics_api
+domain: graphics_api
+description: WebGL 1/2 standard based on OpenGL ES.
+official_url: https://www.khronos.org/webgl/
+github_repo: KhronosGroup/WebGL
+aliases: []
+sources:
+- type: spec_registry
+  url: https://registry.khronos.org/webgl/
+  poll_interval: 360

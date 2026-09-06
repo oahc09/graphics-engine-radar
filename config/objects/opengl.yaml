@@ -1,0 +1,15 @@
+id: opengl
+name: OpenGL
+type: graphics_api
+domain: graphics_api
+description: Khronos cross-platform graphics API.
+official_url: https://www.opengl.org
+github_repo: KhronosGroup/OpenGL-Registry
+aliases: []
+sources:
+- type: github_release
+  repo: KhronosGroup/OpenGL-Registry
+  poll_interval: 360
+- type: spec_registry
+  url: https://registry.khronos.org/OpenGL/
+  poll_interval: 360

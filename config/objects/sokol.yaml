@@ -1,0 +1,12 @@
+id: sokol
+name: sokol
+type: rendering_engine
+domain: engine
+description: Simple cross-platform headers including sokol_gfx.
+official_url: null
+github_repo: floooh/sokol
+aliases: []
+sources:
+- type: github_release
+  repo: floooh/sokol
+  poll_interval: 60

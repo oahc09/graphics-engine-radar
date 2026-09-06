@@ -1,0 +1,7 @@
+id: bindless
+name: Bindless
+parent: rendering-architecture
+keywords:
+- bindless
+- descriptor heap
+- descriptor indexing

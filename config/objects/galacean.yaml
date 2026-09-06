@@ -1,0 +1,14 @@
+id: galacean
+name: Galacean Engine
+type: web_engine
+domain: engine
+description: WebGL/WebGPU engine (formerly Alipay AntG/Cocos-origin Galacean).
+official_url: https://galacean.antgroup.com
+github_repo: galacean/engine
+aliases:
+- Galacean
+- galacean engine
+sources:
+- type: github_release
+  repo: galacean/engine
+  poll_interval: 60

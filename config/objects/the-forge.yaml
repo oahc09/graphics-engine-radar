@@ -1,0 +1,12 @@
+id: the-forge
+name: The Forge
+type: rendering_engine
+domain: engine
+description: ConfettiFX rendering framework for cross-platform PC/console/mobile.
+official_url: https://github.com/ConfettiFX/The-Forge
+github_repo: ConfettiFX/The-Forge
+aliases: []
+sources:
+- type: github_release
+  repo: ConfettiFX/The-Forge
+  poll_interval: 60

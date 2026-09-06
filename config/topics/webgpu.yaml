@@ -1,0 +1,8 @@
+id: webgpu
+name: WebGPU
+parent: platform-runtime
+keywords:
+- webgpu
+- wgsl
+- dawn
+- wgpu

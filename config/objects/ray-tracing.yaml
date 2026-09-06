@@ -1,0 +1,9 @@
+id: ray-tracing
+name: Ray Tracing
+type: technology
+domain: rendering_tech
+description: Real-time and offline ray tracing.
+official_url: null
+github_repo: null
+aliases: []
+sources: []

@@ -1,0 +1,12 @@
+id: meshoptimizer
+name: meshoptimizer
+type: standard
+domain: standard
+description: Mesh processing/compression library (zeux).
+official_url: null
+github_repo: zeux/meshoptimizer
+aliases: []
+sources:
+- type: github_release
+  repo: zeux/meshoptimizer
+  poll_interval: 60

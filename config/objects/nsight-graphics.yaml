@@ -1,0 +1,12 @@
+id: nsight-graphics
+name: Nsight Graphics
+type: tool
+domain: tooling
+description: NVIDIA's GPU application profiling/debugging tool.
+official_url: null
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://developer.nvidia.com/blog/feed/
+  poll_interval: 120

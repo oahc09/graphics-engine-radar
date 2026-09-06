@@ -1,0 +1,9 @@
+id: real-time-gi
+name: Real-time Global Illumination
+type: technology
+domain: rendering_tech
+description: Real-time GI techniques (DDGI, probes, ReSTIR GI).
+official_url: null
+github_repo: null
+aliases: []
+sources: []

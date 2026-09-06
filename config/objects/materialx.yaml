@@ -1,0 +1,12 @@
+id: materialx
+name: MaterialX
+type: standard
+domain: standard
+description: Open standard for rich material representation.
+official_url: null
+github_repo: AcademySoftwareFoundation/MaterialX
+aliases: []
+sources:
+- type: github_release
+  repo: AcademySoftwareFoundation/MaterialX
+  poll_interval: 60

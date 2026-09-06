@@ -1,0 +1,12 @@
+id: openexr
+name: OpenEXR
+type: standard
+domain: standard
+description: HDR image format.
+official_url: null
+github_repo: AcademySoftwareFoundation/openexr
+aliases: []
+sources:
+- type: github_release
+  repo: AcademySoftwareFoundation/openexr
+  poll_interval: 60

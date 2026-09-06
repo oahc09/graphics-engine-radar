@@ -1,0 +1,12 @@
+id: shaderc
+name: shaderc
+type: tool
+domain: tooling
+description: GLSL/HLSL to SPIR-V compiler library.
+official_url: null
+github_repo: google/shaderc
+aliases: []
+sources:
+- type: github_release
+  repo: google/shaderc
+  poll_interval: 60

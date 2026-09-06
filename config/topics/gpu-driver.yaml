@@ -1,0 +1,10 @@
+id: gpu-driver
+name: GPU Driver
+parent: platform-runtime
+keywords:
+- driver
+- mesa
+- radv
+- anv
+- nvk
+- wddm

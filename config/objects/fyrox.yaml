@@ -1,0 +1,12 @@
+id: fyrox
+name: Fyrox
+type: game_engine
+domain: engine
+description: Rust game engine with an editor.
+official_url: https://fyrox.rs
+github_repo: FyroxEngine/Fyrox
+aliases: []
+sources:
+- type: github_release
+  repo: FyroxEngine/Fyrox
+  poll_interval: 60

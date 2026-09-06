@@ -1,0 +1,12 @@
+id: renderdoc
+name: RenderDoc
+type: tool
+domain: tooling
+description: Frame debugger and graphics debugger for D3D/Vulkan/OpenGL/Metal.
+official_url: https://renderdoc.org
+github_repo: baldurk/renderdoc
+aliases: []
+sources:
+- type: github_release
+  repo: baldurk/renderdoc
+  poll_interval: 60

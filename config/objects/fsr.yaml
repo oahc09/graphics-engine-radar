@@ -1,0 +1,12 @@
+id: fsr
+name: FSR
+type: technology
+domain: rendering_tech
+description: AMD FidelityFX Super Resolution.
+official_url: null
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://gpuopen.com/feed/
+  poll_interval: 120

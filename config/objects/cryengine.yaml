@@ -1,0 +1,12 @@
+id: cryengine
+name: CryEngine
+type: game_engine
+domain: engine
+description: Crytek's game engine.
+official_url: https://www.cryengine.com
+github_repo: null
+aliases: []
+sources:
+- type: release_notes
+  url: https://www.cryengine.com/marketplace?_iesign=1
+  poll_interval: 360

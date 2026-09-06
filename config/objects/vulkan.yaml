@@ -1,0 +1,18 @@
+id: vulkan
+name: Vulkan
+type: graphics_api
+domain: graphics_api
+description: Khronos explicit cross-platform graphics & compute API.
+official_url: https://www.vulkan.org
+github_repo: KhronosGroup/Vulkan-Docs
+aliases: []
+sources:
+- type: github_release
+  repo: KhronosGroup/Vulkan-Docs
+  poll_interval: 360
+- type: spec_registry
+  url: https://registry.khronos.org/vulkan/
+  poll_interval: 360
+- type: official_blog
+  url: https://www.khronos.org/blog/feed
+  poll_interval: 120

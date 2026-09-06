@@ -1,0 +1,16 @@
+id: babylonjs
+name: Babylon.js
+type: web_engine
+domain: engine
+description: Web-first 3D engine by Microsoft with WebGPU support.
+official_url: https://www.babylonjs.com
+github_repo: BabylonJS/Babylon.js
+aliases:
+- Babylon
+sources:
+- type: github_release
+  repo: BabylonJS/Babylon.js
+  poll_interval: 60
+- type: official_blog
+  url: https://babylonjs.medium.com/feed
+  poll_interval: 120

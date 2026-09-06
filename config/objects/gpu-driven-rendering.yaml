@@ -1,0 +1,9 @@
+id: gpu-driven-rendering
+name: GPU Driven Rendering
+type: technology
+domain: rendering_tech
+description: GPU-driven culling, draw generation and scene management.
+official_url: null
+github_repo: null
+aliases: []
+sources: []

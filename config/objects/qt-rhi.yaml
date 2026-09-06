@@ -1,0 +1,12 @@
+id: qt-rhi
+name: Qt RHI
+type: graphics_runtime
+domain: engine
+description: 'QRhi: Qt''s rendering hardware interface over D3D/Vulkan/Metal/GL.'
+official_url: https://doc.qt.io/qt-6/qrhi.html
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://www.qt.io/blog/rss.xml
+  poll_interval: 120

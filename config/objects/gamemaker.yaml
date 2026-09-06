@@ -1,0 +1,13 @@
+id: gamemaker
+name: GameMaker
+type: game_engine
+domain: engine
+description: 2D game development platform.
+official_url: https://gamemaker.io
+github_repo: null
+aliases:
+- GameMaker Studio 2
+sources:
+- type: official_blog
+  url: https://gamemaker.io/en/blog/rss
+  poll_interval: 120

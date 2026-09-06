@@ -1,0 +1,12 @@
+id: nsight-systems
+name: Nsight Systems
+type: tool
+domain: tooling
+description: NVIDIA's whole-system profiling tool.
+official_url: null
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://developer.nvidia.com/blog/feed/
+  poll_interval: 120

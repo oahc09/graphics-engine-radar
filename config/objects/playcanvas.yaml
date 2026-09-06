@@ -1,0 +1,12 @@
+id: playcanvas
+name: PlayCanvas
+type: web_engine
+domain: engine
+description: WebGL/WebGPU engine and collaborative editor.
+official_url: https://playcanvas.com
+github_repo: playcanvas/engine
+aliases: []
+sources:
+- type: github_release
+  repo: playcanvas/engine
+  poll_interval: 60

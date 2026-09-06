@@ -1,0 +1,12 @@
+id: ktx
+name: KTX
+type: standard
+domain: standard
+description: Khronos texture container (KTX2/Basis Universal supercompression).
+official_url: null
+github_repo: KhronosGroup/KTX-Software
+aliases: []
+sources:
+- type: github_release
+  repo: KhronosGroup/KTX-Software
+  poll_interval: 60

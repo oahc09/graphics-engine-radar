@@ -1,0 +1,12 @@
+id: spirv-tools
+name: SPIRV-Tools
+type: tool
+domain: tooling
+description: SPIR-V assembler/optimizer/validator.
+official_url: null
+github_repo: KhronosGroup/SPIRV-Tools
+aliases: []
+sources:
+- type: github_release
+  repo: KhronosGroup/SPIRV-Tools
+  poll_interval: 60

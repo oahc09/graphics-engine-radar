@@ -1,0 +1,9 @@
+id: metalfx
+name: MetalFX
+type: technology
+domain: rendering_tech
+description: Apple's upscaling framework.
+official_url: null
+github_repo: null
+aliases: []
+sources: []

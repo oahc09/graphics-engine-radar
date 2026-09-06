@@ -1,0 +1,9 @@
+id: apple-gpu
+name: Apple GPU
+type: gpu_vendor
+domain: gpu_platform
+description: Apple Silicon integrated GPUs.
+official_url: null
+github_repo: null
+aliases: []
+sources: []

@@ -1,0 +1,12 @@
+id: osl
+name: Open Shading Language
+type: standard
+domain: standard
+description: OSL shading language.
+official_url: null
+github_repo: AcademySoftwareFoundation/OpenShadingLanguage
+aliases: []
+sources:
+- type: github_release
+  repo: AcademySoftwareFoundation/OpenShadingLanguage
+  poll_interval: 60

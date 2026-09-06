@@ -1,0 +1,12 @@
+id: metal
+name: Metal
+type: graphics_api
+domain: graphics_api
+description: Apple's low-level GPU API.
+official_url: https://developer.apple.com/metal/
+github_repo: null
+aliases: []
+sources:
+- type: release_notes
+  url: https://developer.apple.com/news/releases/
+  poll_interval: 360

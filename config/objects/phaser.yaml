@@ -1,0 +1,12 @@
+id: phaser
+name: Phaser
+type: web_engine
+domain: engine
+description: 2D HTML5 game framework.
+official_url: https://phaser.io
+github_repo: phaserjs/phaser
+aliases: []
+sources:
+- type: github_release
+  repo: phaserjs/phaser
+  poll_interval: 60

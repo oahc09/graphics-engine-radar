@@ -1,0 +1,14 @@
+id: threejs
+name: Three.js
+type: web_engine
+domain: engine
+description: The most widely used WebGL/WebGPU 3D library.
+official_url: https://threejs.org
+github_repo: mrdoob/three.js
+aliases:
+- three.js
+- THREE
+sources:
+- type: github_release
+  repo: mrdoob/three.js
+  poll_interval: 60

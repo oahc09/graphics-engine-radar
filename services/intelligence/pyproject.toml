@@ -1,0 +1,21 @@
+[project]
+name = "radar-intelligence"
+version = "0.1.0"
+description = "Intelligence pipeline: rule filter, candidate detection, event retrieval/clustering, technical analysis, topic mapping, maturity, impact, trend, digest"
+requires-python = ">=3.12"
+dependencies = [
+    "radar-domain",
+    "radar-prompts",
+    "httpx>=0.27",
+    "click>=8.1",
+]
+
+[project.scripts]
+radar-intelligence = "radar_intelligence.cli:intelligence"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["radar_intelligence"]

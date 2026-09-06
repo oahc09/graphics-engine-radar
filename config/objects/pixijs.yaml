@@ -1,0 +1,13 @@
+id: pixijs
+name: PixiJS
+type: web_engine
+domain: engine
+description: The fastest 2D WebGL/WebGPU renderer for the web.
+official_url: https://pixijs.com
+github_repo: pixijs/pixijs
+aliases:
+- Pixi
+sources:
+- type: github_release
+  repo: pixijs/pixijs
+  poll_interval: 60

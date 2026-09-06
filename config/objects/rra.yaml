@@ -1,0 +1,12 @@
+id: rra
+name: Radeon Raytracing Analyzer
+type: tool
+domain: tooling
+description: AMD's ray tracing performance analyzer.
+official_url: https://gpuopen.com/rra/
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://gpuopen.com/feed/
+  poll_interval: 120

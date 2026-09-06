@@ -1,0 +1,12 @@
+id: amd
+name: AMD
+type: gpu_vendor
+domain: gpu_platform
+description: Radeon GPU vendor; FSR, GPUOpen.
+official_url: https://gpuopen.com
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://gpuopen.com/feed/
+  poll_interval: 120

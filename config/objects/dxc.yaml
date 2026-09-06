@@ -1,0 +1,12 @@
+id: dxc
+name: DXC
+type: tool
+domain: tooling
+description: HLSL compiler producing DXIL/SPIR-V.
+official_url: null
+github_repo: microsoft/DirectXShaderCompiler
+aliases: []
+sources:
+- type: github_release
+  repo: microsoft/DirectXShaderCompiler
+  poll_interval: 60

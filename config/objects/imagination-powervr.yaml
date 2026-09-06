@@ -1,0 +1,12 @@
+id: imagination-powervr
+name: Imagination / PowerVR
+type: gpu_vendor
+domain: gpu_platform
+description: PowerVR GPUs.
+official_url: https://www.imaginationtech.com
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://blog.imaginationtech.com/rss.xml
+  poll_interval: 120

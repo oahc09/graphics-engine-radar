@@ -1,0 +1,12 @@
+id: openimageio
+name: OpenImageIO
+type: standard
+domain: standard
+description: Image I/O library.
+official_url: null
+github_repo: AcademySoftwareFoundation/OpenImageIO
+aliases: []
+sources:
+- type: github_release
+  repo: AcademySoftwareFoundation/OpenImageIO
+  poll_interval: 60

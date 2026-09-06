@@ -1,0 +1,12 @@
+id: windows
+name: Windows
+type: platform
+domain: gpu_platform
+description: Windows platform graphics stack (D3D12/WDDM).
+official_url: null
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://devblogs.microsoft.com/directx/feed/
+  poll_interval: 120

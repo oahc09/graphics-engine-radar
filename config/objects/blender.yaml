@@ -1,0 +1,18 @@
+id: blender
+name: Blender
+type: dcc
+domain: content_pipeline
+description: Open-source 3D creation suite (Cycles, Eevee, Geometry Nodes).
+official_url: https://www.blender.org
+github_repo: blender/blender
+aliases: []
+sources:
+- type: github_release
+  repo: blender/blender
+  poll_interval: 60
+- type: official_blog
+  url: https://www.blender.org/feed/
+  poll_interval: 120
+- type: release_notes
+  url: https://developer.blender.org/docs/release_notes/
+  poll_interval: 360

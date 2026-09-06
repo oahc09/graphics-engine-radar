@@ -1,0 +1,9 @@
+id: virtual-geometry
+name: Virtual Geometry
+type: technology
+domain: rendering_tech
+description: Nanite-like virtualized micro-polygon geometry.
+official_url: null
+github_repo: null
+aliases: []
+sources: []

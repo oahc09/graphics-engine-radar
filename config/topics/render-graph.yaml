@@ -1,0 +1,6 @@
+id: render-graph
+name: Render Graph
+parent: rendering-architecture
+keywords:
+- render graph
+- frame graph

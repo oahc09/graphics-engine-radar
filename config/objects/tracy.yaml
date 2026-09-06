@@ -1,0 +1,12 @@
+id: tracy
+name: Tracy Profiler
+type: tool
+domain: tooling
+description: Real-time nanosecond resolution frame profiler.
+official_url: https://github.com/wolfpld/tracy
+github_repo: wolfpld/tracy
+aliases: []
+sources:
+- type: github_release
+  repo: wolfpld/tracy
+  poll_interval: 60

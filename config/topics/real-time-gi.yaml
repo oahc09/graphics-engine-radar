@@ -1,0 +1,9 @@
+id: real-time-gi
+name: Real-time GI
+parent: lighting-shading
+keywords:
+- global illumination
+- ddgi
+- probe
+- radiance cache
+- restir

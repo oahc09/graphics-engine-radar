@@ -1,0 +1,12 @@
+id: nvidia
+name: NVIDIA
+type: gpu_vendor
+domain: gpu_platform
+description: GeForce/RTX GPU vendor; DLSS, Work Graphs, neural graphics.
+official_url: https://developer.nvidia.com
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://developer.nvidia.com/blog/feed/
+  poll_interval: 120

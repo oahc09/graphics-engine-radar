@@ -1,0 +1,12 @@
+id: mdl
+name: MDL
+type: standard
+domain: standard
+description: NVIDIA Material Definition Language.
+official_url: https://github.com/NVIDIA/MDL-SDK
+github_repo: null
+aliases: []
+sources:
+- type: github_release
+  repo: NVIDIA/MDL-SDK
+  poll_interval: 60

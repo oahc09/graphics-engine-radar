@@ -1,0 +1,12 @@
+id: openusd
+name: OpenUSD
+type: standard
+domain: standard
+description: Universal Scene Description.
+official_url: https://openusd.org
+github_repo: PixarAnimationStudios/OpenUSD
+aliases: []
+sources:
+- type: github_release
+  repo: PixarAnimationStudios/OpenUSD
+  poll_interval: 60

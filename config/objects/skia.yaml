@@ -1,0 +1,24 @@
+id: skia
+name: Skia
+type: rendering_engine
+domain: engine
+description: Google's 2D graphics library used by Chrome/Android/Flutter.
+official_url: https://skia.org
+github_repo: google/skia
+aliases: []
+sources:
+- type: github_pr
+  repo: google/skia
+  poll_interval: 120
+  watch:
+    pull_requests:
+      merged_only: true
+      keywords:
+      - graphite
+      - gpu
+      - vulkan
+      - metal
+      - dawn
+      - webgpu
+      - renderer
+      - backend

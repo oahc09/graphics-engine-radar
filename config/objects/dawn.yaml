@@ -1,0 +1,23 @@
+id: dawn
+name: Dawn
+type: graphics_runtime
+domain: engine
+description: Chromium's WebGPU implementation in C++.
+official_url: https://dawn.googlesource.com/dawn
+github_repo: google/dawn
+aliases: []
+sources:
+- type: github_pr
+  repo: google/dawn
+  poll_interval: 120
+  watch:
+    pull_requests:
+      merged_only: true
+      keywords:
+      - webgpu
+      - vulkan
+      - metal
+      - d3d
+      - wgsl
+      - backend
+      - shader

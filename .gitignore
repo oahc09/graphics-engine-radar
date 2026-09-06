@@ -1,0 +1,20 @@
+# local secrets
+.env
+
+# local data (embedded database, service pid/log files)
+data/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# node
+node_modules/
+apps/web/.next/
+apps/web/.env*
+
+# misc
+*.log
+.DS_Store

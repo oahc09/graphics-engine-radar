@@ -1,0 +1,12 @@
+id: houdini
+name: Houdini
+type: dcc
+domain: content_pipeline
+description: SideFX procedural 3D application.
+official_url: https://www.sidefx.com
+github_repo: null
+aliases: []
+sources:
+- type: release_notes
+  url: https://www.sidefx.com/docs/houdini/news/index.html
+  poll_interval: 360

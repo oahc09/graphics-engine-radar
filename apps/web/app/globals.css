@@ -1,0 +1,82 @@
+:root {
+  --bg: #0e1116;
+  --panel: #161b23;
+  --panel-2: #1d242e;
+  --text: #e6e9ee;
+  --muted: #8b93a1;
+  --accent: #4da3ff;
+  --border: #262e3a;
+  --new: #4da3ff;
+  --expand: #9d7bff;
+  --adopt: #35c28f;
+  --mature: #e0b23e;
+  --spec: #e07b39;
+  --perf: #43c6e0;
+  --break: #e05a5a;
+}
+
+* { box-sizing: border-box; }
+html, body { padding: 0; margin: 0; background: var(--bg); color: var(--text); }
+body { font-family: -apple-system, "PingFang SC", "Segoe UI", "Microsoft YaHei", sans-serif; }
+a { color: inherit; text-decoration: none; }
+.container { max-width: 1060px; margin: 0 auto; padding: 0 16px; }
+
+.site-head { border-bottom: 1px solid var(--border); background: rgba(14,17,22,.9); position: sticky; top: 0; z-index: 10; }
+.head-inner { display: flex; align-items: center; justify-content: space-between; height: 56px; }
+.brand { font-size: 18px; font-weight: 300; letter-spacing: .3px; }
+.brand b { font-weight: 700; color: var(--accent); }
+.site-head nav { display: flex; gap: 18px; font-size: 14px; }
+.site-head nav a { color: var(--muted); }
+.site-head nav a:hover { color: var(--text); }
+
+.hero { padding: 40px 0 24px; }
+.hero h1 { font-size: 30px; margin: 0 0 12px; }
+.hero p { color: var(--muted); margin: 4px 0; max-width: 640px; line-height: 1.7; }
+
+.section { margin: 28px 0; }
+.section > h2 { font-size: 18px; border-left: 3px solid var(--accent); padding-left: 10px; }
+.section .sub { color: var(--muted); font-size: 13px; margin: 6px 0 14px 13px; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+
+.card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+.card h3 { margin: 8px 0; font-size: 15px; line-height: 1.45; }
+.card h3 a:hover { color: var(--accent); }
+.card .what { color: var(--muted); font-size: 13px; line-height: 1.6; margin: 6px 0; }
+.card .why { font-size: 13px; line-height: 1.65; color: #c6ccd6; background: var(--panel-2); border-radius: 8px; padding: 8px 10px; margin: 8px 0 4px; }
+.card .why strong { color: var(--accent); margin-right: 6px; font-size: 12px; }
+
+.card-head { display: flex; align-items: center; gap: 8px; font-size: 12px; flex-wrap: wrap; }
+.signal { font-weight: 700; }
+.sig-new { color: var(--new); } .sig-expand { color: var(--expand); }
+.sig-adopt { color: var(--adopt); } .sig-mature { color: var(--mature); }
+.sig-spec { color: var(--spec); } .sig-perf { color: var(--perf); }
+.sig-break { color: var(--break); }
+.obj-chip { background: var(--panel-2); border-radius: 5px; padding: 1px 7px; color: var(--muted); }
+.obj-chip:hover { color: var(--text); }
+.impact { margin-left: auto; font-weight: 600; }
+.impact-high, .impact-critical { color: var(--break); }
+.impact-notable { color: var(--muted); }
+.date { color: var(--muted); }
+
+.card-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; font-size: 12px; color: var(--muted); flex-wrap: wrap; gap: 6px; }
+.topic-chip { color: var(--accent); margin-right: 8px; font-size: 12px; }
+.src a { margin-left: 4px; color: var(--accent); }
+
+.trend-row, .list-row { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 8px; background: var(--panel); }
+.state { font-size: 12px; border-radius: 5px; padding: 1px 8px; font-weight: 600; }
+.state-accelerating { background: #14402e; color: #35c28f; }
+.state-growing { background: #14304a; color: #4da3ff; }
+.state-stable { background: #333a45; color: var(--muted); }
+.state-cooling { background: #402323; color: #e05a5a; }
+.state-research-heavy { background: #3d3514; color: #e0b23e; }
+
+.filters { display: flex; gap: 8px; flex-wrap: wrap; margin: 16px 0; }
+.filters a, .filters span { font-size: 13px; color: var(--muted); background: var(--panel); border: 1px solid var(--border); border-radius: 16px; padding: 3px 12px; }
+.filters a:hover, .filters .on { color: var(--text); border-color: var(--accent); }
+
+.empty { color: var(--muted); padding: 30px 0; text-align: center; }
+.site-foot { border-top: 1px solid var(--border); margin-top: 60px; padding: 20px 0 40px; color: var(--muted); font-size: 13px; }
+.prose { line-height: 1.8; }
+.prose h3 { margin: 18px 0 6px; }
+.meta-line { color: var(--muted); font-size: 13px; margin-bottom: 20px; }

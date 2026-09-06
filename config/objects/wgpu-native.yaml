@@ -1,0 +1,12 @@
+id: wgpu-native
+name: wgpu-native
+type: graphics_runtime
+domain: engine
+description: Native bindings to wgpu for C/Python.
+official_url: null
+github_repo: gfx-rs/wgpu-native
+aliases: []
+sources:
+- type: github_release
+  repo: gfx-rs/wgpu-native
+  poll_interval: 60

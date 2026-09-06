@@ -1,0 +1,13 @@
+id: ogre-next
+name: OGRE-Next
+type: rendering_engine
+domain: engine
+description: Threaded fork of OGRE 2.x.
+official_url: https://www.ogre3d.org
+github_repo: OGRECave/ogre-next
+aliases:
+- OGRE 2
+sources:
+- type: github_release
+  repo: OGRECave/ogre-next
+  poll_interval: 60

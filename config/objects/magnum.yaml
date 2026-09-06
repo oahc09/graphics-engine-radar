@@ -1,0 +1,12 @@
+id: magnum
+name: Magnum
+type: rendering_engine
+domain: engine
+description: Lightweight C++11/C++14 graphics middleware.
+official_url: https://magnum.graphics
+github_repo: mosra/magnum
+aliases: []
+sources:
+- type: github_release
+  repo: mosra/magnum
+  poll_interval: 60

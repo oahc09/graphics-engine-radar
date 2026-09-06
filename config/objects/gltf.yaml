@@ -1,0 +1,15 @@
+id: gltf
+name: glTF
+type: standard
+domain: standard
+description: Khronos runtime 3D asset delivery format.
+official_url: https://www.khronos.org/gltf/
+github_repo: KhronosGroup/glTF
+aliases: []
+sources:
+- type: github_release
+  repo: KhronosGroup/glTF
+  poll_interval: 360
+- type: spec_registry
+  url: https://registry.khronos.org/glTF/
+  poll_interval: 360

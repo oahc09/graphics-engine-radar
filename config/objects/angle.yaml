@@ -1,0 +1,22 @@
+id: angle
+name: ANGLE
+type: graphics_runtime
+domain: engine
+description: 'Almost Native Graphics Layer Engine: OpenGL ES over Vulkan/D3D/Metal.'
+official_url: https://chromium.googlesource.com/angle/angle
+github_repo: google/angle
+aliases: []
+sources:
+- type: github_pr
+  repo: google/angle
+  poll_interval: 120
+  watch:
+    pull_requests:
+      merged_only: true
+      keywords:
+      - vulkan
+      - metal
+      - d3d
+      - backend
+      - webgpu
+      - shader

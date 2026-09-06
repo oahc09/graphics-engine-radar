@@ -1,0 +1,9 @@
+id: neural-rendering
+name: Neural Rendering
+type: technology
+domain: rendering_tech
+description: Neural shading, neural materials, neural compression.
+official_url: null
+github_repo: null
+aliases: []
+sources: []

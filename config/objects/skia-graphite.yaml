@@ -1,0 +1,10 @@
+id: skia-graphite
+name: Skia Graphite
+type: rendering_engine
+domain: engine
+description: Skia's next-generation GPU backend built on Dawn/WebGPU.
+official_url: https://skia.org/docs/user/modules/canvaskit
+github_repo: null
+aliases:
+- Graphite
+sources: []

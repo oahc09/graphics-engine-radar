@@ -1,0 +1,12 @@
+id: substance-3d
+name: Substance 3D
+type: dcc
+domain: content_pipeline
+description: Adobe's texturing/material suite (Painter, Designer).
+official_url: https://www.adobe.com/products/substance3d.html
+github_repo: null
+aliases: []
+sources:
+- type: release_notes
+  url: https://helpx.adobe.com/substance-3d/release-notes.html
+  poll_interval: 360

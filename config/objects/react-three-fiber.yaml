@@ -1,0 +1,13 @@
+id: react-three-fiber
+name: React Three Fiber
+type: web_engine
+domain: engine
+description: React renderer for Three.js.
+official_url: https://docs.pmnd.rs
+github_repo: pmndrs/react-three-fiber
+aliases:
+- R3F
+sources:
+- type: github_release
+  repo: pmndrs/react-three-fiber
+  poll_interval: 60

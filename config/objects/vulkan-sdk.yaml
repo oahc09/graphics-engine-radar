@@ -1,0 +1,9 @@
+id: vulkan-sdk
+name: Vulkan SDK
+type: technology
+domain: graphics_api
+description: LunarG's Vulkan SDK (validation layers, tools).
+official_url: https://vulkan.lunarg.com
+github_repo: null
+aliases: []
+sources: []

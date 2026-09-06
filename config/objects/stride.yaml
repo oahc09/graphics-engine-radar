@@ -1,0 +1,12 @@
+id: stride
+name: Stride
+type: game_engine
+domain: engine
+description: Open-source C# game engine (formerly Xenko).
+official_url: https://www.stride3d.net
+github_repo: stride3d/stride
+aliases: []
+sources:
+- type: github_release
+  repo: stride3d/stride
+  poll_interval: 60

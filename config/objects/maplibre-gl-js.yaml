@@ -1,0 +1,12 @@
+id: maplibre-gl-js
+name: MapLibre GL JS
+type: web_engine
+domain: engine
+description: Open-source WebGL map rendering library (Mapbox GL fork).
+official_url: https://maplibre.org
+github_repo: maplibre/maplibre-gl-js
+aliases: []
+sources:
+- type: github_release
+  repo: maplibre/maplibre-gl-js
+  poll_interval: 60

@@ -1,0 +1,12 @@
+id: intel
+name: Intel
+type: gpu_vendor
+domain: gpu_platform
+description: Intel Arc/Xe GPU vendor; XeSS.
+official_url: null
+github_repo: null
+aliases: []
+sources:
+- type: community
+  url: https://www.phoronix.com/rss.php
+  poll_interval: 120

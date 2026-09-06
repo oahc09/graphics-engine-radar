@@ -1,0 +1,16 @@
+id: slang
+name: Slang
+type: tool
+domain: graphics_api
+description: Shading language and compiler with module system, generics and multi-backend
+  codegen.
+official_url: https://shader-slang.org
+github_repo: shader-slang/slang
+aliases: []
+sources:
+- type: github_release
+  repo: shader-slang/slang
+  poll_interval: 60
+- type: official_blog
+  url: https://shader-slang.org/feed.xml
+  poll_interval: 120

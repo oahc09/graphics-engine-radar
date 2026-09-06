@@ -1,0 +1,21 @@
+id: flutter-impeller
+name: Flutter Impeller
+type: graphics_runtime
+domain: engine
+description: Flutter's precompiled shader rendering engine.
+official_url: https://docs.flutter.dev/perf/impeller
+github_repo: flutter/flutter
+aliases:
+- Impeller
+sources:
+- type: github_pr
+  repo: flutter/flutter
+  poll_interval: 120
+  watch:
+    pull_requests:
+      merged_only: true
+      keywords:
+      - impeller
+      - vulkan
+      - metal
+      - gpu

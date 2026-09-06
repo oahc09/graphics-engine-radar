@@ -1,0 +1,12 @@
+id: hlsl
+name: HLSL
+type: technology
+domain: graphics_api
+description: High-Level Shading Language for D3D.
+official_url: https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://devblogs.microsoft.com/directx/feed/
+  poll_interval: 120

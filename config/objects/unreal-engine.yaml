@@ -1,0 +1,15 @@
+id: unreal-engine
+name: Unreal Engine
+type: game_engine
+domain: engine
+description: Epic Games' AAA game engine.
+official_url: https://www.unrealengine.com
+github_repo: null
+aliases:
+- UE
+- UE5
+- Unreal
+sources:
+- type: release_notes
+  url: https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5.6-release-notes
+  poll_interval: 360

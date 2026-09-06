@@ -1,0 +1,13 @@
+id: geometry
+name: Geometry
+parent: null
+keywords:
+- mesh
+- geometry
+- culling
+- lod
+- meshlet
+- mesh shader
+- nanite
+- vertex
+- compression

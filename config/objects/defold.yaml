@@ -1,0 +1,15 @@
+id: defold
+name: Defold
+type: game_engine
+domain: engine
+description: Free 2D game engine with Lua scripting.
+official_url: https://defold.com
+github_repo: defold/defold
+aliases: []
+sources:
+- type: github_release
+  repo: defold/defold
+  poll_interval: 60
+- type: official_blog
+  url: https://defold.com/feed.xml
+  poll_interval: 120

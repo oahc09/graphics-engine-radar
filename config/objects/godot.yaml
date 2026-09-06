@@ -1,0 +1,15 @@
+id: godot
+name: Godot
+type: game_engine
+domain: engine
+description: Free and open-source 2D/3D game engine.
+official_url: https://godotengine.org
+github_repo: godotengine/godot
+aliases: []
+sources:
+- type: github_release
+  repo: godotengine/godot
+  poll_interval: 60
+- type: official_blog
+  url: https://godotengine.org/rss.xml
+  poll_interval: 120

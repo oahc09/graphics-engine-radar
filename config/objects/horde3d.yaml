@@ -1,0 +1,12 @@
+id: horde3d
+name: Horde3D
+type: rendering_engine
+domain: engine
+description: Small open-source 3D rendering engine.
+official_url: https://horde3d.org
+github_repo: horde3d/Horde3D
+aliases: []
+sources:
+- type: github_release
+  repo: horde3d/Horde3D
+  poll_interval: 60

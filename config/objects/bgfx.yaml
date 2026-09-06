@@ -1,0 +1,12 @@
+id: bgfx
+name: bgfx
+type: rendering_engine
+domain: engine
+description: Cross-platform rendering library with many graphics backends.
+official_url: https://github.com/bkaradzic/bgfx
+github_repo: bkaradzic/bgfx
+aliases: []
+sources:
+- type: github_release
+  repo: bkaradzic/bgfx
+  poll_interval: 60

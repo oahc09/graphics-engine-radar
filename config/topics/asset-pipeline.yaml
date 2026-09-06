@@ -1,0 +1,9 @@
+id: asset-pipeline
+name: Asset Pipeline
+parent: resource-asset
+keywords:
+- asset pipeline
+- dcc
+- blender
+- importer
+- exporter

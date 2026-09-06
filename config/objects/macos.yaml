@@ -1,0 +1,9 @@
+id: macos
+name: macOS
+type: platform
+domain: gpu_platform
+description: Apple desktop platform.
+official_url: null
+github_repo: null
+aliases: []
+sources: []

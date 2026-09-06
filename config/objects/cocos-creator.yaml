@@ -1,0 +1,14 @@
+id: cocos-creator
+name: Cocos Creator
+type: game_engine
+domain: engine
+description: Cross-platform 2D/3D game engine focused on mobile and mini-games.
+official_url: https://www.cocos.com/en/creator
+github_repo: cocos/cocos-engine
+aliases:
+- Cocos
+- CocosEngine
+sources:
+- type: github_release
+  repo: cocos/cocos-engine
+  poll_interval: 60

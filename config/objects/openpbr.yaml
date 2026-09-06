@@ -1,0 +1,12 @@
+id: openpbr
+name: OpenPBR
+type: standard
+domain: standard
+description: Open surface shading model standard (MaterialX-based).
+official_url: null
+github_repo: AcademySoftwareFoundation/OpenPBR
+aliases: []
+sources:
+- type: github_release
+  repo: AcademySoftwareFoundation/OpenPBR
+  poll_interval: 60

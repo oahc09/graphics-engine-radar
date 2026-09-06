@@ -1,0 +1,12 @@
+id: webkit-graphics
+name: WebKit Graphics
+type: graphics_runtime
+domain: engine
+description: WebKit's rendering and compositing stack.
+official_url: https://webkit.org
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://webkit.org/blog/feed/
+  poll_interval: 120

@@ -1,0 +1,7 @@
+id: rhi
+name: RHI
+parent: rendering-architecture
+keywords:
+- rhi
+- render hardware interface
+- abstraction layer

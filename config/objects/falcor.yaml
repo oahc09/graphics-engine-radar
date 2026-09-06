@@ -1,0 +1,12 @@
+id: falcor
+name: Falcor
+type: rendering_engine
+domain: engine
+description: NVIDIA's real-time rendering research framework.
+official_url: https://github.com/NVIDIA/Falcor
+github_repo: NVIDIA/Falcor
+aliases: []
+sources:
+- type: github_release
+  repo: NVIDIA/Falcor
+  poll_interval: 60

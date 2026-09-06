@@ -1,0 +1,12 @@
+id: chromium-graphics
+name: Chromium Graphics
+type: graphics_runtime
+domain: engine
+description: Chromium's graphics stack (compositing, rasterization, GPU process).
+official_url: https://www.chromium.org/developers/design-documents/gpu-accelerated-compositing-in-chrome/
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://blog.chromium.org/feeds/posts/default?alt=rss
+  poll_interval: 120

@@ -1,0 +1,9 @@
+id: samsung-xclipse
+name: Samsung / Xclipse
+type: gpu_vendor
+domain: gpu_platform
+description: Samsung Xclipse GPUs (AMD RDNA licensed).
+official_url: null
+github_repo: null
+aliases: []
+sources: []

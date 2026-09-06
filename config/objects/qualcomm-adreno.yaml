@@ -1,0 +1,12 @@
+id: qualcomm-adreno
+name: Qualcomm / Adreno
+type: gpu_vendor
+domain: gpu_platform
+description: Adreno mobile GPUs; Vulkan/mobile ray tracing enablement.
+official_url: https://developer.qualcomm.com
+github_repo: null
+aliases: []
+sources:
+- type: community
+  url: https://www.phoronix.com/rss.php
+  poll_interval: 120

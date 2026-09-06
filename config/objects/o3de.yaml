@@ -1,0 +1,12 @@
+id: o3de
+name: O3DE
+type: game_engine
+domain: engine
+description: Open 3D Engine, an Apache-licensed AAA engine.
+official_url: https://o3de.org
+github_repo: o3de/o3de
+aliases: []
+sources:
+- type: github_release
+  repo: o3de/o3de
+  poll_interval: 60

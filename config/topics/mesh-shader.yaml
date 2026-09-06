@@ -1,0 +1,7 @@
+id: mesh-shader
+name: Mesh Shader
+parent: geometry
+keywords:
+- mesh shader
+- task shader
+- meshlet

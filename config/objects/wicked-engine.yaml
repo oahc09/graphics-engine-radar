@@ -1,0 +1,12 @@
+id: wicked-engine
+name: Wicked Engine
+type: game_engine
+domain: engine
+description: C++ engine featuring modern rendering techniques.
+official_url: https://wickedengine.net
+github_repo: turanszkij/WickedEngine
+aliases: []
+sources:
+- type: github_release
+  repo: turanszkij/WickedEngine
+  poll_interval: 60

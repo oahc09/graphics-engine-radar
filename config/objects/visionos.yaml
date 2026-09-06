@@ -1,0 +1,9 @@
+id: visionos
+name: visionOS
+type: platform
+domain: gpu_platform
+description: Apple spatial computing platform.
+official_url: null
+github_repo: null
+aliases: []
+sources: []

@@ -1,0 +1,12 @@
+id: filament
+name: Filament
+type: rendering_engine
+domain: engine
+description: Google's PBR rendering engine for Android/iOS/desktop/web.
+official_url: https://google.github.io/filament/
+github_repo: google/filament
+aliases: []
+sources:
+- type: github_release
+  repo: google/filament
+  poll_interval: 60

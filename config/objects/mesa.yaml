@@ -1,0 +1,15 @@
+id: mesa
+name: Mesa
+type: rendering_engine
+domain: engine
+description: Open-source OpenGL/Vulkan driver stack for Linux.
+official_url: https://www.mesa3d.org
+github_repo: null
+aliases: []
+sources:
+- type: release_notes
+  url: https://docs.mesa3d.org/relnotes.html
+  poll_interval: 360
+- type: community
+  url: https://www.phoronix.com/rss.php
+  poll_interval: 120

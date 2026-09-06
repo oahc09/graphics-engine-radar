@@ -1,0 +1,8 @@
+id: neural-rendering
+name: Neural Rendering
+parent: neural-graphics
+keywords:
+- neural rendering
+- neural shading
+- coop vector
+- neural material

@@ -1,0 +1,12 @@
+id: linux
+name: Linux
+type: platform
+domain: gpu_platform
+description: Linux platform graphics stack (Mesa/Wayland/DRM).
+official_url: null
+github_repo: null
+aliases: []
+sources:
+- type: community
+  url: https://www.phoronix.com/rss.php
+  poll_interval: 120

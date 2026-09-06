@@ -1,0 +1,8 @@
+id: ray-tracing
+name: Ray Tracing
+parent: lighting-shading
+keywords:
+- ray tracing
+- rt
+- rtx
+- bvhs

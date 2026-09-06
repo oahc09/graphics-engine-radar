@@ -1,0 +1,25 @@
+id: webgpu
+name: WebGPU
+type: graphics_api
+domain: graphics_api
+description: Next-generation web graphics & compute API.
+official_url: https://www.w3.org/TR/webgpu/
+github_repo: gpuweb/gpuweb
+aliases: []
+sources:
+- type: github_pr
+  repo: gpuweb/gpuweb
+  poll_interval: 240
+  watch:
+    pull_requests:
+      merged_only: true
+      keywords:
+      - webgpu
+      - wgsl
+      - spec
+      - constraint
+      - buffer
+      - texture
+- type: official_blog
+  url: https://blog.chromium.org/feeds/posts/default?alt=rss
+  poll_interval: 120

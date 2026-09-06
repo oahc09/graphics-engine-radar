@@ -1,0 +1,18 @@
+id: direct3d-12
+name: Direct3D 12
+type: graphics_api
+domain: graphics_api
+description: Microsoft's explicit GPU API for Windows/Xbox.
+official_url: https://learn.microsoft.com/en-us/windows/win32/direct3d12/directx-12-programming-guide
+github_repo: null
+aliases:
+- D3D12
+- DirectX 12
+- DirectX
+sources:
+- type: official_blog
+  url: https://devblogs.microsoft.com/directx/feed/
+  poll_interval: 120
+- type: release_notes
+  url: https://learn.microsoft.com/en-us/windows/win32/direct3d12/new-releases
+  poll_interval: 360

@@ -1,0 +1,12 @@
+id: arm-mali
+name: ARM / Mali / Immortalis
+type: gpu_vendor
+domain: gpu_platform
+description: Mali/Immortalis mobile GPUs.
+official_url: https://developer.arm.com
+github_repo: null
+aliases: []
+sources:
+- type: community
+  url: https://www.phoronix.com/rss.php
+  poll_interval: 120

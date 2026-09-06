@@ -1,0 +1,12 @@
+id: wgpu
+name: wgpu
+type: graphics_runtime
+domain: engine
+description: Rust WebGPU implementation on Vulkan/Metal/D3D12/GL.
+official_url: https://wgpu.rs
+github_repo: gfx-rs/wgpu
+aliases: []
+sources:
+- type: github_release
+  repo: gfx-rs/wgpu
+  poll_interval: 60

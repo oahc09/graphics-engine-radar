@@ -1,0 +1,12 @@
+id: spirv-cross
+name: SPIRV-Cross
+type: tool
+domain: tooling
+description: SPIR-V to GLSL/HLSL/MSL decompiler.
+official_url: null
+github_repo: KhronosGroup/SPIRV-Cross
+aliases: []
+sources:
+- type: github_release
+  repo: KhronosGroup/SPIRV-Cross
+  poll_interval: 60

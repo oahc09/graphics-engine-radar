@@ -1,0 +1,9 @@
+id: metal-shading-language
+name: Metal Shading Language
+type: technology
+domain: graphics_api
+description: 'MSL: shading language for Metal.'
+official_url: https://developer.apple.com/metal/shading-language/
+github_repo: null
+aliases: []
+sources: []

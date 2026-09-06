@@ -1,0 +1,12 @@
+id: dxil
+name: DXIL
+type: technology
+domain: graphics_api
+description: DirectX Intermediate Language.
+official_url: null
+github_repo: null
+aliases: []
+sources:
+- type: official_blog
+  url: https://devblogs.microsoft.com/directx/feed/
+  poll_interval: 120
