@@ -1,5 +1,8 @@
 # Graphics Engine Radar
 
+> AI agent / 新协作者请先读 **[AGENTS.md](AGENTS.md)**(项目结构、一键部署、不变量约束)。
+> 完整部署说明见 **[docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)**;所有可配置参数统一在根目录 `.env`(模板 `.env.example`)。
+
 > 图形引擎每天都在变化。我们持续监控引擎、Graphics API、GPU、渲染技术和工具链。AI 帮你过滤噪声,只留下真正值得关注的变化。
 >
 > Don't rank news. Detect meaningful changes in graphics technology.

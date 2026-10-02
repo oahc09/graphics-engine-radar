@@ -23,16 +23,40 @@ ROOT = Path(__file__).resolve().parents[1]
 PID_DIR = ROOT / "data" / "services"
 LOG_DIR = ROOT / "data" / "logs"
 
+
+def _env_port(key: str, default: int) -> int:
+    """Ports come from the unified root .env (real env vars still win)."""
+    import re
+
+    val = os.environ.get(key)
+    if not val:
+        try:
+            for line in (ROOT / ".env").read_text(encoding="utf-8").splitlines():
+                m = re.match(rf"^\s*{key}\s*=\s*(\d+)", line)
+                if m:
+                    val = m.group(1)
+                    break
+        except OSError:
+            pass
+    try:
+        return int(val) if val else default
+    except ValueError:
+        return default
+
+
+API_PORT = _env_port("API_PORT", 8300)
+WEB_PORT = _env_port("WEB_PORT", 8301)
+
 SERVICES = {
     "api": {
-        "port": 8300,
+        "port": API_PORT,
         "cwd": ROOT,
-        "cmd": ["uv", "run", "uvicorn", "radar_api.app:app", "--port", "8300"],
+        "cmd": ["uv", "run", "uvicorn", "radar_api.app:app", "--port", str(API_PORT)],
     },
     "web": {
-        "port": 8301,
+        "port": WEB_PORT,
         "cwd": ROOT / "apps" / "web",
-        "cmd": ["npm", "run", "dev"],
+        "cmd": ["npm", "run", "dev", "--", "-p", str(WEB_PORT)],
     },
 }
 

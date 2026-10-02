@@ -43,6 +43,10 @@ class Settings(BaseSettings):
 
     config_dir: Path = REPO_ROOT / "config"
     api_port: int = 8300
+    web_port: int = 8301
+    # embedded database data dir (scripts/embedded_db.py also honors the
+    # GRADAR_DATA_DIR environment variable directly)
+    data_dir: Path = REPO_ROOT / "data"
 
 
 @lru_cache
