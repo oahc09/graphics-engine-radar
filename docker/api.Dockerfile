@@ -6,6 +6,7 @@ COPY services ./services
 COPY apps/api ./apps/api
 COPY config ./config
 COPY migrations ./migrations
+COPY scripts ./scripts
 COPY alembic.ini ./
 RUN pip install --no-cache-dir uv && uv sync --frozen --no-dev --all-packages
 EXPOSE 8300

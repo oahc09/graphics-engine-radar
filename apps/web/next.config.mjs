@@ -1,12 +1,10 @@
 /** @type {import('next').NextConfig} */
-// All runtime configuration lives in the repo-root .env (single source of truth,
-// shared with the Python backend). This loader is dependency-free.
 import { readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 function loadRootEnv() {
-  const here = dirname(fileURLToPath(import.meta.url)); // apps/web
+  const here = dirname(fileURLToPath(import.meta.url));
   const envPath = join(here, "..", "..", ".env");
   try {
     for (const line of readFileSync(envPath, "utf8").split(/\r?\n/)) {
@@ -20,27 +18,16 @@ function loadRootEnv() {
       ) {
         value = value.slice(1, -1);
       }
-      if (!(key in process.env)) process.env[key] = value; // real env wins
+      if (!(key in process.env)) process.env[key] = value;
     }
   } catch {
-    // no .env — defaults apply
+    // No repo-root .env is valid for reproducible image builds. Runtime-only
+    // service addresses are read by server code and route handlers instead.
   }
 }
 
 loadRootEnv();
 
-const apiPort = process.env.API_PORT || "8300";
-const apiBase = process.env.NEXT_PUBLIC_API_BASE || `http://127.0.0.1:${apiPort}`;
-const proxyTarget = process.env.API_PROXY_TARGET || apiBase;
-
-const nextConfig = {
-  env: {
-    // baked into both server and client bundles (lib/api.ts reads it)
-    NEXT_PUBLIC_API_BASE: apiBase,
-  },
-  async rewrites() {
-    return [{ source: "/api/:path*", destination: `${proxyTarget}/:path*` }];
-  },
-};
+const nextConfig = {};
 
 export default nextConfig;

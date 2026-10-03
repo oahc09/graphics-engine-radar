@@ -1,53 +1,114 @@
-version: "3.9"
-
 services:
   postgres:
     image: pgvector/pgvector:pg17
     environment:
-      POSTGRES_USER: radar
-      POSTGRES_PASSWORD: radar
-      POSTGRES_DB: radar
-    ports:
-      - "5433:5432"
+      POSTGRES_USER: ${POSTGRES_USER:-radar}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-radar}
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U radar"]
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-radar} -d ${POSTGRES_DB:-radar}"]
       interval: 5s
       timeout: 3s
-      retries: 10
+      retries: 20
+    restart: unless-stopped
 
   redis:
     image: redis:7-alpine
-    ports:
-      - "6380:6379"
+    expose: ["6379"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+
+  migrate:
+    build:
+      context: .
+      dockerfile: docker/api.Dockerfile
+    environment:
+      DATABASE_URL: ${DATABASE_URL:?set DATABASE_URL for the internal PostgreSQL service}
+    command: ["uv", "run", "--no-dev", "alembic", "upgrade", "head"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: "no"
 
   api:
     build:
       context: .
       dockerfile: docker/api.Dockerfile
     environment:
-      DATABASE_URL: postgresql+psycopg://radar:radar@postgres:5432/radar
+      DATABASE_URL: ${DATABASE_URL:?set DATABASE_URL for the internal PostgreSQL service}
       GITHUB_TOKEN: ${GITHUB_TOKEN:-}
+      LLM_PROVIDER: ${LLM_PROVIDER:-openai}
       LLM_API_KEY: ${LLM_API_KEY:-}
       LLM_API_BASE: ${LLM_API_BASE:-https://api.openai.com/v1}
-      LLM_MODEL: ${LLM_MODEL:-gpt-4o-mini}
-    ports:
-      - "8300:8300"
+      LLM_MODEL: ${LLM_MODEL:-}
+      ENABLE_ADMIN_API: ${ENABLE_ADMIN_API:-false}
+      ADMIN_API_TOKEN: ${ADMIN_API_TOKEN:-}
+    expose: ["8300"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8300/health', timeout=3).read()"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
     depends_on:
-      postgres:
-        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  scheduler:
+    build:
+      context: .
+      dockerfile: docker/api.Dockerfile
+    command: ["uv", "run", "--no-dev", "python", "scripts/scheduler.py"]
+    environment:
+      DATABASE_URL: ${DATABASE_URL:?set DATABASE_URL for the internal PostgreSQL service}
+      GITHUB_TOKEN: ${GITHUB_TOKEN:-}
+      LLM_PROVIDER: ${LLM_PROVIDER:-openai}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_API_BASE: ${LLM_API_BASE:-https://api.openai.com/v1}
+      LLM_MODEL: ${LLM_MODEL:-}
+      PIPELINE_INTERVAL_SECONDS: ${PIPELINE_INTERVAL_SECONDS:-3600}
+      PIPELINE_TIMEOUT_SECONDS: ${PIPELINE_TIMEOUT_SECONDS:-3600}
+      PIPELINE_MAX_RETRIES: ${PIPELINE_MAX_RETRIES:-1}
+      PIPELINE_RETRY_DELAY_SECONDS: ${PIPELINE_RETRY_DELAY_SECONDS:-300}
+      PIPELINE_RUN_ON_START: ${PIPELINE_RUN_ON_START:-true}
+      SCHEDULER_HEALTH_GRACE_SECONDS: ${SCHEDULER_HEALTH_GRACE_SECONDS:-600}
+    healthcheck:
+      test: ["CMD", "uv", "run", "--no-dev", "python", "scripts/scheduler_health.py"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    restart: unless-stopped
 
   web:
     build:
       context: .
       dockerfile: docker/web.Dockerfile
     environment:
+      INTERNAL_API_BASE: http://api:8300
       API_PROXY_TARGET: http://api:8300
     ports:
-      - "8301:8301"
+      - "${WEB_BIND_ADDRESS:-127.0.0.1}:${WEB_PORT:-8301}:8301"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8301/').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
     depends_on:
-      - api
+      api:
+        condition: service_healthy
+    restart: unless-stopped
 
 volumes:
   pgdata:
